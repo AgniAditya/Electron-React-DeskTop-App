@@ -4,6 +4,7 @@
         "target": "esnext",
         "module": "nodenext",
         "outDir": "../../dist-electron",
-        "skipLibCheck": false
+        "skipLibCheck": false,
+        "types": ["../../types"]
     }
 }

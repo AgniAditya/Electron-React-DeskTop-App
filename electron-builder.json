@@ -1,6 +1,7 @@
 {
     "appId":"com.aditya.electron-tutorial",
     "files": ["dist-react","dist-electron"],
+    "extroResources": ["dist-electron/preload.cjs"],
     "mac": {
         "target":"dmg"
     },
